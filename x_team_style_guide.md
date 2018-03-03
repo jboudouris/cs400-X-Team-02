@@ -1,4 +1,4 @@
-# X-Team NN Style Guide
+# X-Team 02 Style Guide
 
 Emphasis on descriptive naming and easily readable code.
 

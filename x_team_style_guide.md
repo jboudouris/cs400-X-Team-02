@@ -19,17 +19,17 @@ Descriptive with attention to capitalization.
 
 ## Commenting style for public and private members of a class or interface:
 
-<brief statement of your team's commenting style>
+Clear and consise comments. Describe stuff that's not obvious. Don't over comment.
 
 ### Examples
 
-* classes
-* fields
-* constructors
-* methods
+* classes - Javadoc at the top to describe what the class represents.
+* fields - Inline comment describing the purpose of the field.
+* constructors - Javadoc describing what it does. Use @param to describe parameters.
+* methods - Javadoc describing what it does. Use @param and @return.
 * coding style (brackets, horizontal, and vertical spacing) for:
-  * if statements
-  * switch statement
-  * while loops
-  * for loops
-  * enhanced for loops
+  * if statements - `if (boolean) { }` if statements under 100 columns can go on one line.
+  * switch statement - `switch (something) {` case blocks are indented and on own line.
+  * while loops - Same format as if statements.
+  * for loops - Same format as while and if.
+  * enhanced for loops - `for (some something : someething) { }` spacing around colon.

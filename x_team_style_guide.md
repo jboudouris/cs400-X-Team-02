@@ -1,21 +1,21 @@
 # X-Team NN Style Guide
 
-<brief description of your team's opinion or philosophy regarding Style Guides>
+Emphasis on descriptive naming and easily readable code.
 
 ## Naming conventions
 
-<brief statement describing your team's naming conventions>
+Descriptive with attention to capitalization.
 
 ### Examples
-* interfaces
-* classes
-* exception types
-* fields
-* methods
-* parameters
-* local variables
-* instance constants
-* class constants
+* interfaces - Upper camel cased and describes the purpose of the interface prefixed by a capital I.
+* classes - Upper camel cased and describes the purpose of the class.
+* exception types - Upper camel cased and specifically describes the exception postfixed by Exception.
+* fields - Lower camel cased with a descriptive name.
+* methods - Lower camel cased and describes the purpose of the method limit 3 or 4 words.
+* parameters - Lower camel cased and describes the purpose of the parameter.
+* local variables - Lower camel cased and a breif but descriptive name.
+* instance constants - All caps and underscores to separate words. Desciptive name.
+* class constants - All caps and underscores to separate words. Desciptive name.
 
 ## Commenting style for public and private members of a class or interface:
 
